@@ -1,0 +1,93 @@
+.rating-component-container {
+  background-image: linear-gradient(to bottom right, hsl(216deg, 12%, 8%), hsl(213deg, 19%, 18%));
+  background-size: cover;
+  border-radius: 5px;
+  height: 386px !important;
+  padding: 30px 20px;
+  text-align: center;
+  width: 350px !important;
+}
+.rating-component-container .star-image-container {
+  align-items: center;
+  background-color: hsl(213deg, 19%, 18%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  height: 40px !important;
+  width: 40px !important;
+}
+.rating-component-container .star-image-container .star-image {
+  display: block;
+  height: 15px !important;
+  width: 15px !important;
+}
+.rating-component-container .rating-question {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.rating-component-container .rating-instructions {
+  color: hsl(217deg, 12%, 63%);
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.rating-component-container .rating-button-row {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 100%;
+}
+.rating-component-container .submit-button {
+  color: hsl(0deg, 0%, 100%);
+  cursor: pointer;
+  background-color: hsl(25deg, 97%, 53%);
+  border-radius: 20px;
+  border-style: none;
+  font-size: 15px;
+  letter-spacing: 0.25rem;
+  margin-top: 30px;
+  padding: 10px 0px;
+  width: 100%;
+}
+
+button, p {
+  font-family: "Overpass", sans-serif;
+}
+
+.appreciation-message, .rating-selected-container, .thank-you-image, .thank-you-message {
+  display: none;
+}
+
+.thank-you-image {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rating-selected-container {
+  background-color: hsl(213deg, 19%, 18%);
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding: 5px 0px;
+  width: 150px !important;
+}
+.rating-selected-container .rating-message {
+  color: hsl(25deg, 97%, 53%);
+  font-size: 0.75rem;
+}
+
+.thank-you-message {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1.75rem;
+  margin-top: 30px;
+}
+
+.appreciation-message {
+  color: hsl(216deg, 12%, 54%);
+  margin-top: 30px;
+}/*# sourceMappingURL=RatingComponent.css.map */

@@ -1,0 +1,109 @@
+@import '../../utilities/palette.scss';
+
+.rating-component-container
+{
+    background-image: linear-gradient(to bottom right,hsl(216, 12%, 8%), hsl(213, 19%, 18%) );
+    background-size: cover;
+    border-radius: 5px;
+    height: 386px !important;
+    padding: 30px 20px;
+    text-align: center;
+    width: 350px !important;
+    .star-image-container
+    {
+        align-items: center;
+        background-color: $gradient2;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        height: 40px !important;
+        width: 40px !important;
+        .star-image
+        {
+            display: block;
+            height: 15px !important;
+            width: 15px !important;
+        }
+    }
+    .rating-question
+    {
+        color: $whiteColor;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+    .rating-instructions
+    {
+        color: $textColor;
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 30px;
+    }
+    .rating-button-row
+    {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .submit-button
+    {
+        color: $whiteColor;
+        cursor: pointer;
+        background-color: $submitColor;
+        border-radius: 20px;
+        border-style: none;
+        font-size: 15px;
+        letter-spacing: .25rem;
+        margin-top: 30px;
+        padding: 10px 0px;
+        width: 100%;
+    }
+}
+
+button, p
+{
+    font-family: $fontFamily;
+}
+
+.appreciation-message, .rating-selected-container, .thank-you-image, .thank-you-message 
+{
+    display: none;
+}
+
+.thank-you-image
+{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rating-selected-container
+{
+    background-color: $gradient2;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 5px 0px;
+    width: 150px !important;
+    .rating-message
+    {
+        color: $submitColor;
+        font-size: .75rem;
+    }
+}
+
+.thank-you-message
+{
+    color: $whiteColor;
+    font-size: 1.75rem;
+    margin-top: 30px;
+}
+
+.appreciation-message
+{
+    color: $gradient1;
+    margin-top: 30px;
+}

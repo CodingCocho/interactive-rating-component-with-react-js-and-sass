@@ -1,0 +1,50 @@
+@import '../../utilities/palette.scss';
+
+.rating-radio-container
+{
+    align-items: center;
+    background-color: $gradient2;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    height: 40px !important;
+    width: 40px !important;  
+    &:hover
+    {
+        background-color: $submitColor;
+        label
+        {
+            color: $whiteColor;
+        }
+    }
+}
+
+.rating-radio-container-selected
+{
+    align-items: center;
+    background-color: $gradient1 !important;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    height: 40px !important;
+    width: 40px !important;  
+    label
+    {
+        color: $whiteColor;
+    }
+}
+
+input
+{
+    display: none;
+}
+
+label
+{
+    color: $textColor;
+    cursor: pointer;
+    display: block;
+    font-family: $fontFamily;
+}
