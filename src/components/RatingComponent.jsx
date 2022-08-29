@@ -42,8 +42,6 @@ export const RatingComponent = () =>
         {
             stateElements2[locator].style.display = 'block';
         }
-
-        
     }
 
     return(

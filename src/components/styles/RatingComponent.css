@@ -4,7 +4,7 @@
   border-radius: 5px;
   height: 386px !important;
   padding: 30px 20px;
-  text-align: center;
+  text-align: left;
   width: 350px !important;
 }
 .rating-component-container .star-image-container {
@@ -74,6 +74,7 @@ button, p {
   margin-right: auto;
   margin-top: 30px;
   padding: 5px 0px;
+  text-align: center !important;
   width: 150px !important;
 }
 .rating-selected-container .rating-message {
@@ -85,9 +86,11 @@ button, p {
   color: hsl(0deg, 0%, 100%);
   font-size: 1.75rem;
   margin-top: 30px;
+  text-align: center !important;
 }
 
 .appreciation-message {
   color: hsl(216deg, 12%, 54%);
   margin-top: 30px;
+  text-align: center !important;
 }/*# sourceMappingURL=RatingComponent.css.map */
